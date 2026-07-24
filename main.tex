@@ -1,0 +1,253 @@
+\documentclass[11pt,letterpaper]{article}% Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\usepackage[spanish,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+\usepackage{changepage}  % to use adjustwidth
+
+
+
+
+\definecolor{blueish}{RGB}{49, 122, 181}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=blueish,      
+	urlcolor=blueish,
+	pdftitle={Cristina Griffa - CV},
+	pdfpagemode=FullScreen,
+}
+
+\newcommand{\makeheading}[2][]%
+{\hspace*{\marginparsep minus \marginparwidth}%
+	\begin{minipage}[t]{\textwidth\marginparwidth\marginparsep}%
+		{\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+\end{minipage}}
+
+
+\newcommand{\cvdoublecolumn}[2]{%
+	\cvitem[0.75em]{}{%
+		\begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+		\hfill%
+		\begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+	}%
+}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+\titlespacing*{\section}{0pt}{0.4\baselineskip}{\baselineskip}
+
+\titleformat{\subsection}
+{\normalfont\fontsize{12}{15}\bfseries}{\thesection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0.3\baselineskip}{\baselineskip}
+
+\title{\vspace{-5ex} \textbf{CRISTINA GRIFFA \vspace{-8.8ex}}}
+
+\date{}
+\pagestyle{empty}
+
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+\makeheading{}
+
+\section*{Contact Information}
+\vspace{-0.2cm}
+\urlstyle{sf}
+\begin{minipage}[t]{.65\linewidth}
+{\small
+Personal website: \href{https://cristinagriffa.com}{cristinagriffa.com} \\ 
+Email: \href{mailto:cgriffa@fen.uchile.cl}{cgriffa@fen.uchile.cl} \\
+}
+\end{minipage}
+
+
+\section*{Current Position}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\itemindent=-15pt
+\item Assistant Professor, Department of Economics, University of Chile \hfill {Sept. 2024 -}
+\end{list}
+
+%%%%%%%%%%%%%%Fields%%%%%%%%%%%%%%%%%
+\section*{Fields of Interest}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\itemindent=-15pt
+\setlength\itemsep{-0.1cm}
+\item Primary Fields: Macroeconomics, Monetary Economics
+\item Secondary Fields: Applied Econometrics, Expectations and Firm Behavior
+\end{list}
+
+%%%%%%%%%%%%%%Education%%%%%%%%%%%%%%%%%
+\section*{Education}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\setlength\itemsep{-0.1cm}
+\itemindent=-15pt
+\item Ph.D. in Economics, University of Nottingham. UK \hfill {2024} 
+\item M.A. Economics, Northwestern University. Evanston, IL, USA \hfill 2019
+\item Master of Public Administration, Columbia University. New York, NY, USA \hfill 2016
+\item B.A. Economics, Universidad Católica Argentina. Argentina \hfill 2009
+\end{list}
+
+%%%%%%%%%%%%%%Publications%%%%%%%%%%%%%%%%%
+\section*{Publications}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\setlength\itemsep{0.1cm}
+\itemindent=-15pt
+\item Brodeur, A. et al. (incl. C. Griffa). ``Reproducibility and robustness of economics and political science research.'' \textit{Nature}, 652, 151--156 \hfill {2026} 
+\end{list}
+
+\section*{Research in progress}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\setlength\itemsep{0.1cm}
+\itemindent=-15pt
+\item``Sectoral Phillips Curves: The Role of Expectations and Production Networks in Price Setting''
+\item ``The Asymmetric Role of Own-Industry Expectations in Firm Pricing: Evidence from UK Firms'' (with Galina Potjagailo, Bank of England)
+\item ``The Network Origins of the Post-COVID Inflation'' (with Jean Imbs)
+\item ``Exchange-Rate Pass-Through and Strategic Complementarities in Argentine Retail'' (with Paula Margaretic and Ramiro Severino)
+% \\ \item ``The heterogeneous impact of monetary policy across sectors in the UK: A proxy FAVAR approach'' (with Miguel Herculano, University of Glasgow) 		
+\end{list}
+
+\section*{Work Experience}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\itemindent=-15pt
+	\setlength\itemsep{-0.2cm}
+\item \textbf{Bank of England}, London, UK \hfill 2022, 2024 \\ Ph.D. Intern in the Structural Economics Division (SED) within the Monetary Analysis Directorate. Supervisor: Galina Potgagailo \\
+\item \textbf{Inter-American Development Bank}, Washington, DC, USA \hfill {2016 – 2018} \\ 
+Coordinator of the Financial Stability and Development Group (FSD) at the Research Department. Supervisor: Andres Fernandez \\
+\item \textbf{OMERS Capital Markets}, New York, NY, USA \hfill {Summer 2016} \\
+Macro Research Analyst. Supervisor: Sadi Ozelge \\
+\item \textbf{World Bank}, Washington, DC, USA \hfill {2012 – 2015} \\ 
+Financial Analyst. Supervisor: Antonio Velandia \\
+\item \textbf{Inter-American Development Bank}, Washington, DC, USA \hfill {2011 – 2012} \\ 
+Research Fellow \\
+\item \textbf{Ministry of Economy and Finance}, Buenos Aires, Argentina  \hfill {2008 – 2011} \\ 
+Senior Financial Analyst at the Public Debt Office  
+\end{list}
+
+
+\section*{Teaching Experience}	
+\vspace{-0.2cm}
+Monetary Policy (Master's; 2026), Macroeconomics II (2025, 2026), Econometric Theory (2023), Mathematical Economics (2023), Advanced Mathematics (2023),  Macroeconomic Theory (2022), Economic Policy Analysis (2021), Monetary Economics (2021), Macroeconomics (2021, 2023), Microeconomics (2020)
+
+
+\section*{Conferences}
+\vspace{-0.2cm}
+\noindent\textbf{2026:} Conference on Computing in Economics and Finance (Italy), RES Annual Conference (UK), Discussant at FEN-CAF International Conference, Universidad de Chile \bigbreak \vspace{-0.1cm}
+\noindent\textbf{2025:} Conference on Computing in Economics and Finance (Chile) \bigbreak \vspace{-0.1cm}
+\noindent\textbf{2024:} LACEA-LAMES (Uruguay), SED Winter Meeting (Argentina), RES Annual Conference (UK) \bigbreak \vspace{-0.1cm}
+\noindent\textbf{2023:} Conference on Computing in Economics and Finance (France), International Association for Applied Econometrics Annual Conference (Norway), Warwick Economics PhD Conference (UK), Money Macro and Finance PhD Conference (UK), ESCoE Conference on Economic Measurement (UK), Workshop for Women in Macroeconomics, Finance and Economic History (Germany), Edinburgh-Nottingham Joint Macro PhD Workshop (UK)
+
+\vspace{0.1cm}
+\section*{Seminars}
+\vspace{-0.2cm}
+\noindent\textbf{2025:} Central Bank of Chile \bigbreak \vspace{-0.1cm}
+\noindent\textbf{2024:} Pontificia Universidad Católica de Chile, Universidad Torcuato Di Tella \bigbreak \vspace{-0.1cm}
+\noindent\textbf{2023:} Bank of England, University of Nottingham
+
+
+\vspace{0.1cm}
+%%%%%% Fellowships and Grants &&&&&&&&&&&&&&&&&&&&&&&&
+\section*{Fellowships and Grants}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\itemindent=-15pt
+\setlength\itemsep{-0.1cm}
+\item Fondecyt Iniciación, ANID Chile, PI \hfill {2026 -- 2029 ($\sim$100,000 USD)}
+\item Fondos Internos de Investigación, DECON, Universidad de Chile \hfill {2026 (CLP \$7,000,000 $\sim$ 7,500 USD)}
+\item Scholarship, University of Nottingham \hfill 2020-2024
+\item Fellowship, Northwestern University \hfill 2018
+\item Fellowship, Columbia University \hfill2015
+\item Scholarship, Ministry of Economy in Argentina, Top-performer employees \hfill 2010
+\end{list}	
+
+%%%%%% Awards &&&&&&&&&&&&&&&&&&&&&&&&
+\section*{Awards}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\itemindent=-15pt
+\setlength\itemsep{-0.1cm}
+\item Peter Sinclair Prize, second place to the best paper presentations, MMF PhD conference  \hfill {2023} 
+\item GTA Teaching Excellence Award, University of Nottingham  \hfill {2021, 2022, 2023}
+\item World Bank Treasury Spot Award \hfill {2013, 2014}
+\end{list}	
+
+
+%%%%%% Additional training %%%%%%%%%%%%%%%%%%
+\section*{Additional Training}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\setlength\itemsep{-0.1cm}
+\itemindent=-15pt
+ \item PhD course: Subjective Beliefs in Macro and Household Finance (C. Roth and J. Wohlfart) \hfill {2021} 
+\item Certified International Investment Analysts (one year program), \href{http://www.aciia.org}{www.aciia.org} \hfill {2011} 
+\end{list}	
+
+
+
+%%%%%% Other Information %%%%%%%%%%%%%%%%%%
+\section*{Other Information}
+\vspace{-0.2cm}
+\begin{list}{}{} 
+\itemindent=-15pt
+\setlength\itemsep{-0.5cm}
+\item \textbf{Languages:} Spanish (Native), English (Fluent) \\ 
+\item \textbf{Software:} Stata, Matlab, Bloomberg, LaTeX, MS Office \\ \item \textbf{Citizenship:} Argentina 
+\end{list}	
+
+\section*{References}
+\vspace{-0.5cm} 
+\begin{adjustwidth}{-0.2in}{0pt}  % Adjust the left margin here
+\setlength{\columnsep}{-10pt} % Adjust the column separation here
+\begin{multicols}{3}
+{\footnotesize
+\begin{list}{}{} 
+\item \textbf{Kevin Lee} \\
+Economics Department \\
+University of Nottingham \\
+\href{mailto:Kevin.Lee@nottingham.ac.uk}{Kevin.Lee@nottingham.ac.uk} \\
+\item \textbf{Paul Mizen} \\
+Business School \\ King’s College London \\
+\href{mailto:Paul.Mizen@kcl.ac.uk}{Paul.Mizen@kcl.ac.uk} \\
+\item \textbf{Rahul Mukherjee} \\
+Economics Department \\
+University of Nottingham \\
+\href{mailto:Rahul.Mukherjee@nottingham.ac.uk}{Rahul.Mukherjee@nottingham.ac.uk}
+\end{list}	
+}
+\end{multicols}
+\end{adjustwidth}
+
+\vspace{-0.5cm}
+\begin{adjustwidth}{-0.2in}{0pt}  % Adjust the left margin here
+\setlength{\columnsep}{-10pt} % Adjust the column separation here
+\begin{multicols}{2}
+{\small
+\begin{list}{}{} 
+\item \textbf{Galina Potjagailo} \\
+Monetary Policy Directorate \\
+Bank of England\\
+\href{mailto:Galina.Potjagailo@bankofengland.co.uk}{Galina.Potjagailo@bankofengland.co.uk} 
+
+\item \textbf{Andrés Fernández Martin} \\
+Monetary and Capital Markets \\ International Monetary Fund \\ \href{mailto:AFernandez3@imf.org}{AFernandez3@imf.org} 
+\end{list}	
+}
+\end{multicols}
+\end{adjustwidth}
+
+
+
+\end{document}
